@@ -1,0 +1,11 @@
+/home/SAA_CyberV99/Desktop/Knowledges/DevOps-Bootcamp/Next.js-Nginx-Net/backend/publish/BackendApi
+/home/SAA_CyberV99/Desktop/Knowledges/DevOps-Bootcamp/Next.js-Nginx-Net/backend/publish/appsettings.json
+/home/SAA_CyberV99/Desktop/Knowledges/DevOps-Bootcamp/Next.js-Nginx-Net/backend/publish/BackendApi.dll
+/home/SAA_CyberV99/Desktop/Knowledges/DevOps-Bootcamp/Next.js-Nginx-Net/backend/publish/BackendApi.deps.json
+/home/SAA_CyberV99/Desktop/Knowledges/DevOps-Bootcamp/Next.js-Nginx-Net/backend/publish/BackendApi.runtimeconfig.json
+/home/SAA_CyberV99/Desktop/Knowledges/DevOps-Bootcamp/Next.js-Nginx-Net/backend/publish/BackendApi.pdb
+/home/SAA_CyberV99/Desktop/Knowledges/DevOps-Bootcamp/Next.js-Nginx-Net/backend/publish/Microsoft.AspNetCore.OpenApi.dll
+/home/SAA_CyberV99/Desktop/Knowledges/DevOps-Bootcamp/Next.js-Nginx-Net/backend/publish/Microsoft.OpenApi.dll
+/home/SAA_CyberV99/Desktop/Knowledges/DevOps-Bootcamp/Next.js-Nginx-Net/backend/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/SAA_CyberV99/Desktop/Knowledges/DevOps-Bootcamp/Next.js-Nginx-Net/backend/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/SAA_CyberV99/Desktop/Knowledges/DevOps-Bootcamp/Next.js-Nginx-Net/backend/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
