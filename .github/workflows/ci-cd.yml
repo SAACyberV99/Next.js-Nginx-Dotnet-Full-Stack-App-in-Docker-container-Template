@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 env:
-  REGISTRY: ghcr.io/${{ github.repository_owner_lowercase }}
+  REGISTRY: ghcr.io/saacyberv99
   IMAGE_TAG: ${{ github.sha }}
 
 jobs:
@@ -84,8 +84,8 @@ jobs:
           cache-from: type=gha
           cache-to:   type=gha,mode=max
           tags: |
-            ghcr.io/${{ github.repository_owner_lowercase }}/frontend:${{ env.IMAGE_TAG }}
-            ghcr.io/${{ github.repository_owner_lowercase }}/frontend:latest
+            ${{ env.REGISTRY }}/frontend:${{ env.IMAGE_TAG }}
+            ${{ env.REGISTRY }}/frontend:latest
 
       - name: Build & push — backend
         uses: docker/build-push-action@v5
@@ -95,8 +95,8 @@ jobs:
           cache-from: type=gha
           cache-to:   type=gha,mode=max
           tags: |
-            ghcr.io/${{ github.repository_owner_lowercase }}/backend:${{ env.IMAGE_TAG }}
-            ghcr.io/${{ github.repository_owner_lowercase }}/backend:latest
+            ${{ env.REGISTRY }}/backend:${{ env.IMAGE_TAG }}
+            ${{ env.REGISTRY }}/backend:latest
 
   # ────────────────────────────────────────────────────────────────────────────
   # Deploy to Staging (develop branch)
