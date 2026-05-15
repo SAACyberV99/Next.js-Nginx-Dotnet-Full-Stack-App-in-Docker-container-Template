@@ -84,8 +84,8 @@ jobs:
           cache-from: type=gha
           cache-to:   type=gha,mode=max
           tags: |
-            ${{ env.REGISTRY }}/frontend:${{ env.IMAGE_TAG }}
-            ${{ env.REGISTRY }}/frontend:latest
+            ghcr.io/${{ github.repository_owner_lowercase }}/frontend:${{ env.IMAGE_TAG }}
+            ghcr.io/${{ github.repository_owner_lowercase }}/frontend:latest
 
       - name: Build & push — backend
         uses: docker/build-push-action@v5
@@ -95,8 +95,8 @@ jobs:
           cache-from: type=gha
           cache-to:   type=gha,mode=max
           tags: |
-            ${{ env.REGISTRY }}/backend:${{ env.IMAGE_TAG }}
-            ${{ env.REGISTRY }}/backend:latest
+            ghcr.io/${{ github.repository_owner_lowercase }}/backend:${{ env.IMAGE_TAG }}
+            ghcr.io/${{ github.repository_owner_lowercase }}/backend:latest
 
   # ────────────────────────────────────────────────────────────────────────────
   # Deploy to Staging (develop branch)
